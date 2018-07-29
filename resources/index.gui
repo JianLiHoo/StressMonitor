@@ -1,0 +1,30 @@
+<svg>
+  <svg id="screen1">
+    <rect id="background1" width="100%" height="100%" fill="black"/>
+    
+    <image id="heart" x="85%" y="19%" width="10%" height="12%" href="heart.png" />
+    <text id="hrm" x="90%" y="41%" class="hrm"></text>
+    
+    <image id="foot" x="85%" y="54%" width = "10%" height = "15%" href="steps.png"/>
+    <text id="steps" x="90%" y="79%" class="steps"></text>
+    
+    <image id="chargebatt" x="2%" y="2%" width="8%" height="8%" href="chargebattwhite.png" display="none"/>
+    <image id="halfbatt" x="2%" y="2%" width="8%" height="8%" href="halfbattwhite.png" display="none"/>
+    <image id="fullbatt" x="2%" y="2%" width="8%" height="8%" href="fullbattwhite.png" display="none"/>
+    <image id="lowbatt" x="2%" y="2%" width="8%" height="8%" href="lowbattwhite.png" display="inline"/>
+    <text id="chargepct" x="10%" y="9%" class="chargepct"></text>
+    
+    <text id="time" x="0%" y="65%" class="time"></text>
+    <text id="date1" x="2%" y="30%" class="date1" />
+    <text id="date2" x="19%" y="30%" class="date2" />
+    <rect id="button1" pointer-events="all" width="100%" height="100%" fill="black" fill-opacity="0"/>
+  </svg>
+  
+  <svg id="screen2" display="none">
+    <rect id="background2" width="100%" height="100%" fill="black"/>
+    <text id="meanHR" x="80%" y="70%" class="meanHR" display="none"></text>
+    <text id="stress" x="50%" y="40%" class="stress"></text>
+    <text id="stressMsg" x="50%" y="70%" class="stressMsg"></text>
+    <rect id="button2" pointer-events="all" width="100%" height="100%" fill="black" fill-opacity="0"/>
+  </svg>
+</svg>

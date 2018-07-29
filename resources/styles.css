@@ -1,0 +1,70 @@
+svg {
+  viewport-fill: fb-cyan;
+}
+text {
+  text-length: 44;
+}
+
+.hrm {
+  font-family: Seville-Book;
+  font-size: 25;
+  fill: #F80070;
+  text-anchor: middle;
+}
+
+.meanHR {
+  font-family: Seville-Book;
+  font-size: 40;
+  fill: #ffffff;
+}
+
+.stress {
+  font-family: Seville-Book;
+  font-size: 60;
+  fill: #ffffff;
+  text-anchor: middle;
+}
+
+.stressMsg {
+  font-family: Seville-Book;
+  font-size: 30;
+  fill: #ffffff;
+  text-anchor: middle;
+  text-length: 32;
+}
+
+.chargepct {
+  font-size: 18;
+  font-family: Seville-Book;
+  text-length: 32;
+  fill: white;
+}
+
+
+.time {
+  font-size: 100;
+  font-family: System-Bold;
+  text-length: 32;
+  fill: white;
+}
+
+.steps {
+  font-size: 25;
+  font-family: Seville-Book;
+  text-length: 32;
+  fill: blue;
+  text-anchor: middle;
+}
+
+#date1 {
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  fill: white;
+}
+#date2 {
+  font-size: 25;
+  font-family: Seville-Condensed;
+  text-length: 32;
+  fill: white;
+}
